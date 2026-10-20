@@ -3,9 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package status;
 
-import java.util.Scanner;
+//Rahika Faruque
+//991827678
+
+package status;
 
 /** This class takes String input from user 
  * and calls method statusDetail to print the 
@@ -23,11 +25,13 @@ public class Status {
      */
     public static void main(String[] args)
     {
-    Scanner in =new Scanner(System.in);
-    System.out.println("Enter the user status code (zero,one,two,three) in string");
+    /*Scanner in =new Scanner(System.in);
+    System.out.println("Enter the user status code (ex. 0, 1, 2, 3, 4): ");
     String code = in.next();
-    StausUser t= new StausUser();
-    t.statusDetail(code); 
+    StatusUser t= new StatusUser();
+    int codei = Integer.parseInt(code); //assuming the user entered an int
+    t.statusDetail(codei); */
+        StatusUser.statusDetail();
     }
     
 }
